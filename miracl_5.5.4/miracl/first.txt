@@ -1,0 +1,132 @@
+MIRACL is a highly efficient and portable Multiprecision Integer and Rational 
+Arithmetic C/C++ Library. Full source code is provided. Its main area of 
+application is in the implementation of Public Key Cryptography systems and
+protocols. Many example programs are provide. 
+
+The MIRACL library can be used freely for Academic, non-profit making or 
+non-commercial use. Commercial Users must register.
+
+The term "commercial use" means any for-profit use of the MIRACL library.
+Any commercial use of MIRACL requires a license which may be obtained from
+Shamus Software Ltd
+
+Single user license 1,000 euro for first developer/workstation.
+Per additional user 500 euro
+Server license 5,000
+Updates are free.
+
+LICENSE TYPES
+
+Single user license
+MIRACL is installed and used on one single machine, which may not be used as
+a server.
+
+Server license
+MIRACL is installed and used on one server machine and there is no limit on
+the number of clients.
+
+When buying any kind of license, you have the right to install and to
+develop your own programs using MIRACL. You are also allowed to sell the
+binaries of your own programs that have been compiled using MIRACL. There
+are no runtime royalties. All licenses are non-exclusive.
+If you sell software that was developed using MIRACL, there is no
+requirement to cite MIRACL.
+
+Redistributing your copy of MIRACL to a third party is not allowed.
+A commercial license for the installation and use of MIRACL is always given
+for one machine. Installing or copying the software to another machine is
+not allowed.
+
+For more information contact mscott@shamus.ie .
+
+
+Some Public-Domain sources and executables that use the MIRACL library
+are also included in this package.
+
+The address for correspondence is:- 
+
+Shamus Software Ltd,
+4 Foster Place North,
+Ballybough
+Dublin 3
+Ireland
+
+Contact: Michael Scott
+Phone    (353) 1 7005537
+FAX      (353) 1 7005442
+EMAIL    mscott@shamus.ie
+Webpage  http://www.shamus.ie
+
+To access the software, download the file miracl.zip.
+
+If using Windows decompress all files into a single DOS directory MIRACL
+
+To build the standard library in this directory using the Microsoft compiler, 
+first make sure that paths are set up correctly by running the Microsoft 
+supplied batch files vcvars32 or vcvars64 (for 32-bit or 64-bit environments 
+respectively), or vcvarsall <param> to set up a named environment
+
+Then execute either ms32doit.bat or ms64doit.bat (for 32-bit or 64-bit builds resp.)
+
+
+If using Linux, read the following carefully
+
+
+------------------------------------------------
+RedHat Linux 6.0 MIRACL i386 installation
+
+Download the MIRACL.ZIP file, and save it into an otherwise empty MIRACL directory.
+
+1. Unzip the MIRACL.ZIP file using the unix utility unzip
+
+unzip -j -aa -L miracl.zip
+
+The -j ignores the directory structure inside MIRACL.ZIP. The -aa converts all 
+text files to Unix format, and -L ensures that all filenames are lower-case.
+
+
+2. Perform a tailored build of the MIRACL library by opening an X-Term, and 
+   typing
+
+bash linux
+
+   Alternatively if your system is 64-bit
+
+bash linux64
+
+3. All the MIRACL applications (except RATCALC) can be then be built, as 
+   desired. Remember to link all C applications to the miracl.a library.
+   C++ applications must be linked as well to one or more of big.o monty.o 
+   elliptic.o crt.o flash.o object files etc. 
+   Some applications (like factor.c) that require floating-point support 
+   may also require -lm in the compile command line.
+
+Make sure that your Linux PATH points to the current directory, so that 
+exectables can be run.
+
+Note that Linux already has (a rather pathetic) factor program. To avoid name 
+clashes you might rename MIRACL's "factor" program to "facter", or somesuch.
+
+
+------------------------------------------------
+
+
+The manual is available in PostScript form as MANUAL.ZIP
+and in MS Word format as MANUAL.DOC
+
+The text file MIRACL_UPDATE.DOC describes the latest changes and additions
+
+The files TIMINGS.DOC (MS Word) and TIMINGS.PS (Postscript) describe
+how MIRACL achieves fast performance for 80x86 processors
+when used to implement cryptographic algorithms.  
+
+Latest Version - V5.5.4   Last updated August 2011
+
+Earlier versions are available
+
+MIRACL43.ZIP - Version 4.3
+MIRACL45.ZIP - Version 4.5
+MIRACL72.ZIP - Version 4.72
+MIRACL86.ZIP - Version 4.85
+MIRACL510.ZIP - Version 5.10
+

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "miracl", "miracl\miracl.vcxproj", "{D41B4D4A-2809-41AC-A9C3-200DDEDA9BA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D41B4D4A-2809-41AC-A9C3-200DDEDA9BA7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D41B4D4A-2809-41AC-A9C3-200DDEDA9BA7}.Debug|Win32.Build.0 = Debug|Win32
+		{D41B4D4A-2809-41AC-A9C3-200DDEDA9BA7}.Release|Win32.ActiveCfg = Release|Win32
+		{D41B4D4A-2809-41AC-A9C3-200DDEDA9BA7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
